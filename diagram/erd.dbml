@@ -1,0 +1,57 @@
+Table tb_masyarakat {
+  id_user int [PK]
+  nama_lengkap varchar(30)
+  username varchar(20)
+  password varchar(20)
+  telp varchar(25)
+}
+Table tb_barang {
+  id_barang int [PK]
+  nama_barang varchar(30)
+  tgl date
+  harga_awal int
+  deskripsi_barang varchar(100)
+}
+Table tb_lelang {
+  id_lelang int [PK]
+  id_barang int
+  tb_lelang date
+  harga_akhir int
+  id_user int
+  id_petugas int
+  status Status
+}
+Enum Status  {
+  dibuka
+  ditutup
+}
+Table tb_level {
+  id_level int [PK]
+  level Level 
+}
+Enum Level {
+  administrator
+  petugas
+}
+Table tb_petugas {
+  id_petugas int [PK]
+  nama_petugas varchar(25)
+  username varchar(20)
+  password varchar(20)
+  id_level int 
+}
+Table history_lelang {
+  id_history int [PK]
+  id_lelang int
+  id_barang int
+  id_user int
+  penawaran_harga int
+}
+
+ref id_barang_tb_lelang:tb_barang.id_barang - tb_lelang.id_barang
+ref id_barang_history_lelang:tb_barang.id_barang - history_lelang.id_barang
+ref id_user_history_lelang:tb_masyarakat.id_user - history_lelang.id_user
+ref id_user_tb_lelang:tb_masyarakat.id_user <> tb_lelang.id_user
+ref id_lelang_history_lelang:tb_lelang.id_lelang - history_lelang.id_lelang
+ref id_petugas_tb_lelang:tb_petugas.id_petugas < tb_lelang.id_petugas
+ref id_level_tb_petugas:tb_level.id_level - tb_petugas.id_level
