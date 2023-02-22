@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T01:37:50.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="TXX4stIPvHO9PfFTjC_D" version="20.8.21" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-22T01:43:33.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VJZm5fiSv4vBl35ilBkj" version="20.8.21" type="github" pages="3">
   <diagram name="use case" id="RGhBczd1-5QyIVEWNTpK">
     <mxGraphModel dx="1499" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,12 +86,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMP1V4vQ5NhoWUTUqPtd" name="activity diagram">
-    <mxGraphModel dx="1899" dy="2493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3507" dy="2736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ji_YO5yJCSPAz3IR-ibw-1" value="Login" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="-41" width="793" height="828" as="geometry" />
+          <mxGeometry x="-690" y="-58" width="793" height="828" as="geometry" />
         </mxCell>
         <mxCell id="ji_YO5yJCSPAz3IR-ibw-2" value="User" style="swimlane;startSize=20;html=1;fontSize=16;" parent="ji_YO5yJCSPAz3IR-ibw-1" vertex="1">
           <mxGeometry y="20" width="409" height="808" as="geometry" />
@@ -162,96 +162,49 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ji_YO5yJCSPAz3IR-ibw-5" value="Login" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-208.99999999999955" y="-937" width="565.5" height="787" as="geometry" />
-        </mxCell>
-        <mxCell id="ji_YO5yJCSPAz3IR-ibw-6" value="User" style="swimlane;startSize=20;html=1;fontSize=16;" parent="ji_YO5yJCSPAz3IR-ibw-5" vertex="1">
-          <mxGeometry y="20" width="295" height="767" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-6" value="&lt;font size=&quot;1&quot;&gt;Membuka Aplikasi&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-6">
-          <mxGeometry x="57.75" y="135" width="151.5" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=20;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-6">
-          <mxGeometry x="118.49999999999955" y="39" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;strokeWidth=2;fontSize=20;" edge="1" source="E2eHmnAvpmbzOQL-sv0l-9" parent="ji_YO5yJCSPAz3IR-ibw-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="133.49999999999955" y="129" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-12" value="&lt;font size=&quot;1&quot;&gt;Memasukan data email dan password&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-6">
-          <mxGeometry x="57.75" y="261" width="151.5" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="ji_YO5yJCSPAz3IR-ibw-7" value="Aplikasi" style="swimlane;startSize=20;html=1;fontSize=16;" parent="ji_YO5yJCSPAz3IR-ibw-5" vertex="1">
-          <mxGeometry x="295" y="20" width="270.5" height="767" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-11" value="&lt;font size=&quot;1&quot;&gt;Menampilkan halaman login&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry x="57.25" y="135" width="151.5" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="133" y="492.45457874644876" as="targetPoint" />
-            <mxPoint x="132.99999999999955" y="429" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-7" source="E2eHmnAvpmbzOQL-sv0l-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="198" y="355.0000000000002" as="sourcePoint" />
-            <mxPoint x="207.99250000000006" y="166.20800000000008" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="238" y="374" />
-              <mxPoint x="238" y="166" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-21" value="Salah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="E2eHmnAvpmbzOQL-sv0l-20">
-          <mxGeometry x="-0.1254" y="4" relative="1" as="geometry">
-            <mxPoint x="-17" y="-14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;email dan &lt;br&gt;password benar&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=15;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry x="68" y="321" width="130" height="106" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-7" source="E2eHmnAvpmbzOQL-sv0l-15" target="E2eHmnAvpmbzOQL-sv0l-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-15" value="&lt;font size=&quot;1&quot;&gt;Menampilkan halaman utama/&amp;nbsp;&lt;br&gt;dashboard&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry x="59.5" y="495" width="151.5" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry x="120.24999999999955" y="599" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-19" value="benar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="ji_YO5yJCSPAz3IR-ibw-7">
-          <mxGeometry x="125.99999999999955" y="438" width="56" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=15;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-5" source="E2eHmnAvpmbzOQL-sv0l-11" target="E2eHmnAvpmbzOQL-sv0l-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="425" y="327" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=15;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-5" source="E2eHmnAvpmbzOQL-sv0l-12" target="E2eHmnAvpmbzOQL-sv0l-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="125" y="394" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=15;" edge="1" parent="ji_YO5yJCSPAz3IR-ibw-5" source="E2eHmnAvpmbzOQL-sv0l-6" target="E2eHmnAvpmbzOQL-sv0l-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="E2eHmnAvpmbzOQL-sv0l-2" value="Login" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="547.0000000000005" y="-895" width="515" height="480" as="geometry" />
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-2" value="CRUD Barang Lelang" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="547.0000000000005" y="-895" width="653" height="804" as="geometry" />
         </mxCell>
         <mxCell id="E2eHmnAvpmbzOQL-sv0l-4" value="User" style="swimlane;startSize=20;html=1;fontSize=16;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-2">
-          <mxGeometry y="20" width="267" height="460" as="geometry" />
+          <mxGeometry y="20" width="380" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-29" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-4">
+          <mxGeometry x="135.49999999999955" y="29" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;strokeWidth=2;fontSize=15;" edge="1" source="E2eHmnAvpmbzOQL-sv0l-29" parent="E2eHmnAvpmbzOQL-sv0l-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150.49999999999955" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-32" value="&lt;font size=&quot;1&quot;&gt;membuka halaman CRUD barang lelang&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-4">
+          <mxGeometry x="74.75" y="125" width="151.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-33" value="&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-4">
+          <mxGeometry x="-2046" y="155" width="151.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-35" value="&lt;font size=&quot;1&quot;&gt;menampilkan halaman CRUD barang lelang&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-4">
+          <mxGeometry x="79" y="256" width="151.5" height="82" as="geometry" />
         </mxCell>
         <mxCell id="E2eHmnAvpmbzOQL-sv0l-5" value="Aplikasi" style="swimlane;startSize=20;html=1;fontSize=16;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-2">
-          <mxGeometry x="267" y="20" width="248" height="460" as="geometry" />
+          <mxGeometry x="380" y="20" width="273" height="784" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-34" value="&lt;font size=&quot;1&quot;&gt;menampilkan halaman CRUD barang lelang&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-5">
+          <mxGeometry x="70.5" y="125" width="151.5" height="82" as="geometry" />
         </mxCell>
         <mxCell id="E2eHmnAvpmbzOQL-sv0l-13" value="&lt;font size=&quot;1&quot;&gt;Membuka Aplikasi&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="227.00000000000045" y="-1244" width="151.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-26" value="CRUD Barang Lelang" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1247.0000000000005" y="-923" width="574" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-27" value="User" style="swimlane;startSize=20;html=1;fontSize=16;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-26">
+          <mxGeometry y="20" width="301" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-28" value="Aplikasi" style="swimlane;startSize=20;html=1;fontSize=16;" vertex="1" parent="E2eHmnAvpmbzOQL-sv0l-26">
+          <mxGeometry x="301" y="20" width="273" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="E2eHmnAvpmbzOQL-sv0l-36" value="&lt;font size=&quot;1&quot;&gt;menampilkan halaman CRUD barang lelang&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="987.0000000000005" y="-730" width="151.5" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
